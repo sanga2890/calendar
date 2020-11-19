@@ -140,7 +140,7 @@ if (today == key) {
    
 }
 
-https://calendarioavventofamigliabrambilla.netlify.app/img/day/19.gif
+
 });
     
 
