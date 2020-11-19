@@ -139,8 +139,6 @@ if (today == key) {
     $('head').prepend('<meta property="og:image:type" content="https://calendarioavventofamigliabrambilla.netlify.app/img/day/' + current_day + '"' + '>')
    
 }
-
-
 });
     
 
