@@ -136,7 +136,7 @@ if (today == key) {
     let day_message = image.link;
     $('.current-day').attr('src' , "img/day/" + current_day);
     $('.current-message').attr('src' , "img/message/" + day_message);
-    $('head').prepend('<meta property="og:image:type" content="https://calendarioavventofamigliabrambilla.netlify.app/img/day/' + current_day + '"' + '>')
+    $('head').prepend('<meta property="og:image" content="https://calendarioavventofamigliabrambilla.netlify.app/img/day/' + current_day + '"' + '>')
    
 }
 });
