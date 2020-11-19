@@ -1,7 +1,7 @@
-<?php
 
-$images = [];
-$images[1] =  
+
+images = [];
+images[1] =  
 [
     "day" => "1",
     "link" => "1"
@@ -140,4 +140,3 @@ foreach ($images as $key => $image) {
     }
 }
 
-?>
