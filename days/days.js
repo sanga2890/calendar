@@ -98,8 +98,8 @@ images[19] =
 } 
 images[20] = 
 {
-    "day" : "19.png",
-    "link" : "19.gif"
+    "day" : "20.gif",
+    "link" : "20.gif"
 }   
 images[21] = 
 {
