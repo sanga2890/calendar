@@ -129,22 +129,25 @@ images[25] =
    
 let date =  new Date();
 let today = date.getDate();
+// let month = date.getMonth();
 console.log(today);
 
+// if (month == 12) {
+    $.each(images, function( key, image ) {
+        if (today == key) {
+            let current_day = image.day;
+            let day_message = image.link;
+            $('.current-day').attr('src' , "img/day/" + current_day);
+            $('.current-message').attr('src' , "img/message/" + day_message);
+            // $('head').prepend('<meta property="og:image" content="https://calendarioavventofamigliabrambilla.netlify.app/img/day/' + current_day + '"' + '>')
+            return false
+        } 
+        
+        });
+// } else {
+//     $('.container').append('<h1> Keep Calm! Is not yet December!')
+// }
 
 
-$.each(images, function( key, image ) {
-if (today == key) {
-    let current_day = image.day;
-    let day_message = image.link;
-    $('.current-day').attr('src' , "img/day/" + current_day);
-    $('.current-message').attr('src' , "img/message/" + day_message);
-    // $('head').prepend('<meta property="og:image" content="https://calendarioavventofamigliabrambilla.netlify.app/img/day/' + current_day + '"' + '>')
-    return false
-} else {
-    console.log('current_day'); 
-}
-
-});
     
 
