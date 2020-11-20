@@ -90,3 +90,11 @@ body {
 
 }
 
+@media (min-widht: 600px) {
+    .container {
+       width: 500px; 
+       height: 700px;
+    }
+
+}
+
