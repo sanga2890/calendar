@@ -6,7 +6,8 @@
 
 body {
   
-    webkioverflow: hidden;
+    overflow: hidden;
+    
 }
 
 .container {
