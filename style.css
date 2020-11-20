@@ -80,12 +80,13 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
+    width: 100%;
    
 }
 
 .current-day, .current-message {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     
 
 }
