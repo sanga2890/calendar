@@ -57,9 +57,12 @@ body {
 
 @keyframes engine-start {
 
-    0%{left:-20%;}
-    20%{left:10%}
-    25%{transform: rotate(-45deg);}
+    0%{left:-50%;}
+    20%{left: -30%;}
+    30%{left: -20%;}
+    40%{left: -10;}
+    50%{left:10%}
+    55%{transform: rotate(-45deg);}
 
     100%{left:150%;}
     
