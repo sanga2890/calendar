@@ -49,7 +49,7 @@ body {
     bottom: 5%;
     position: absolute;
     animation-name: engine-start;
-    animation-duration: 1.5s ;
+    animation-duration: 6s ;
     animation-iteration-count: infinite;
 }
 
@@ -57,15 +57,13 @@ body {
 
 @keyframes engine-start {
 
-    0%{left:-50%;}
-    20%{left: -30%;}
-    30%{left: -20%;}
-    40%{left: -10;}
-    50%{left:10%}
-    55%{transform: rotate(-45deg);}
+    0%{left:-40%;}
+    10%{left:-10%}
+    15%{transform: rotate(-45deg);}
 
-    100%{left:150%;}
+    80%{transform: rotate(-45deg);left:100%;}
     
+    100%{left: 100%;}
 }
 
 
