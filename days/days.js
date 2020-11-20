@@ -2,17 +2,15 @@ $(document).ready(function(){
 
     $('.current-day').hide();
     $('.current-message').hide();
-    $('.day-box').hide();
 
-    // var time = setInterval(answer_received, 6000);
-    // function answer_received(){
-    //     $('.fondo').addClass('hide')
-    //     $('.babbo').addClass('hide')
-    //     $('.testo').addClass('hide')
-    //     $('.day-box').show()
-    //     $('.current-day').show()
-    //     clearInterval(time)
-    // }
+    let time = setInterval(babbo_penne, 6000);
+    function babbo_penne(){
+        $('.fondo').addClass('hide')
+        $('.babbo').addClass('hide')
+        $('.testo').addClass('hide')
+        $('.current-day').show()
+        clearInterval(time)
+    }
    
 
     let images = [];
