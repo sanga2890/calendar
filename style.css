@@ -50,7 +50,7 @@ body {
     position: absolute;
     animation-name: engine-start;
     animation-timing-function: linear;
-    animation-duration: 6s;
+    animation-duration: 7s;
     animation-iteration-count: 1;
 }
 
