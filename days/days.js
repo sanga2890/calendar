@@ -144,7 +144,7 @@ $(document).ready(function(){
     // let today = date.getDate();
     let today = 1
     // let month = date.getMonth();
-    console.log(today);
+    
 
     // if (month == 12) {
         $.each(images, function( key, image ) {
