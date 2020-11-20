@@ -1,7 +1,14 @@
 $(document).ready(function(){
 
+    $('.current-day').hide();
     $('.current-message').hide();
 
+    var time = setInterval(answer_received, 4000);
+    function answer_received(){
+        $('.open').addClass('hide')
+        $('.current-day').show()
+    }
+   
 
     let images = [];
     images[1] =  
