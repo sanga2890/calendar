@@ -49,8 +49,8 @@ body {
     bottom: 5%;
     position: absolute;
     animation-name: engine-start;
-    animation-timing-function: cubic-bezier(0.1, 0.1, 0.7, 0.1);
-    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-duration: 4s;
     animation-iteration-count: 1;
 }
 
@@ -60,12 +60,6 @@ body {
 
     0% {
         left: -10%;
-    }
-    10%{
-        transform: rotate(-45deg)
-    }
-    15%{
-        transform: rotate(-65deg)
     }
     100% {
         left: 100%;
