@@ -16,8 +16,8 @@ $(document).ready(function(){
     let images = [];
     images[1] =  
     {
-        "day" : "1",
-        "link" : "1" 
+        "day" : "1-01.png",
+        "link" : "20.gif" 
     }
     images[2] = 
     {
@@ -141,7 +141,8 @@ $(document).ready(function(){
     }
     
     let date =  new Date();
-    let today = date.getDate();
+    // let today = date.getDate();
+    let today = 1
     // let month = date.getMonth();
     console.log(today);
 
