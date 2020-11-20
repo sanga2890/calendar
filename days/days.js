@@ -3,9 +3,11 @@ $(document).ready(function(){
     $('.current-day').hide();
     $('.current-message').hide();
 
-    var time = setInterval(answer_received, 4000);
+    var time = setInterval(answer_received, 6000);
     function answer_received(){
-        $('.open').addClass('hide')
+        $('.fondo').addClass('hide')
+        $('.babbo').addClass('hide')
+        $('.testo').addClass('hide')
         $('.current-day').show()
         clearInterval(time)
     }
