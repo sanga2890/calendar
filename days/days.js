@@ -7,6 +7,7 @@ $(document).ready(function(){
     function answer_received(){
         $('.open').addClass('hide')
         $('.current-day').show()
+        clearInterval(time)
     }
    
 
@@ -163,6 +164,8 @@ $(document).ready(function(){
                 $('.current-message').hide();
                 $('.current-day').show();
             })
+
+            
     // } else {
     //     $('.container').append('<h1> Keep Calm! Is not yet December!')
     // }
