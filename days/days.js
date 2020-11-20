@@ -152,6 +152,10 @@ $(document).ready(function(){
                 $('.current-day').hide();
                 $('.current-message').show();
             })
+            $('.current-message').click(function() {
+                $('.current-message').hide();
+                $('.current-day').show();
+            })
     // } else {
     //     $('.container').append('<h1> Keep Calm! Is not yet December!')
     // }
