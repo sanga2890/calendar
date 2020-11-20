@@ -5,7 +5,6 @@
 }
 
 .container {
-    position: relative;
     margin: auto;
     text-align: center;
     width: 100vw;
@@ -13,9 +12,8 @@
 }
 
 .fondo {
-    position: relative;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 .testo {
@@ -40,6 +38,7 @@
 .babbo {
     width: 200px;
     height: 150px;
+    bottom: 8%;
     position: absolute;
     animation-name: engine-start;
     animation-duration: 2s ;
@@ -50,9 +49,10 @@
 
 @keyframes engine-start {
 
-    0%{left:0%; bottom: 0;}
+    0%{left:0%;}
+    40%{transform: rotate(-45deg);}
 
-    100%{left:100%; bottom: 0;}
+    100%{left:83%;}
     
 }
 
@@ -65,7 +65,7 @@
 
 
 .day-box {
-    position: absolute  ;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
