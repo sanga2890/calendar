@@ -17,7 +17,7 @@ $(document).ready(function(){
     images[1] =  
     {
         "day" : "1.png",
-        "link" : "20.gif" 
+        "link" : "1-01.png" 
     }
     images[2] = 
     {
