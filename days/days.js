@@ -8,7 +8,7 @@ $(document).ready(function(){
         $('.fondo').slideUp("slow")
         $('.babbo').slideUp("slow")
         $('.testo').slideUp("slow")
-        $('.current-day').fadeIn("slow")
+        $('.current-day').fadeIn(2000)
         clearInterval(time)
     }
    
@@ -160,12 +160,12 @@ $(document).ready(function(){
             });
 
             $('.current-day').click(function() {
-                $('.current-day').hide();
-                $('.current-message').show();
+                $('.current-day').fadeOut(2000);
+                $('.current-message').fadeIn(4000);
             })
             $('.current-message').click(function() {
-                $('.current-message').hide();
-                $('.current-day').show();
+                $('.current-message').fadeOut()
+                $('.current-day').fadeIn();
             })
 
             
