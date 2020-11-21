@@ -5,10 +5,10 @@ $(document).ready(function(){
 
     let time = setInterval(babbo_penne, 6000);
     function babbo_penne(){
-        $('.fondo').slideUp()
-        $('.babbo').slideUp()
-        $('.testo').slideUp()
-        $('.current-day').fadeIn()
+        $('.fondo').slideUp("slow")
+        $('.babbo').slideUp("slow")
+        $('.testo').slideUp("slow")
+        $('.current-day').fadeIn("slow")
         clearInterval(time)
     }
    
