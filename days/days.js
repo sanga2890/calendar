@@ -1,18 +1,5 @@
 $(document).ready(function(){
-
-    $('.current-day').hide();
-    $('.current-message').hide();
-
-    let time = setInterval(babbo_penne, 6000);
-    function babbo_penne(){
-        $('.fondo').slideUp("slow")
-        $('.babbo').slideUp("slow")
-        $('.testo').slideUp("slow")
-        $('.current-day').fadeIn(2000)
-        clearInterval(time)
-    }
    
-
     let images = [];
     images[1] =  
     {
@@ -141,12 +128,23 @@ $(document).ready(function(){
     }
     
     let date =  new Date();
-    // let today = date.getDate();
-    let today = 1
-    // let month = date.getMonth();
-    
+    let today = date.getDate();
+    let month = date.getMonth();
 
-    // if (month == 12) {
+    if (month == 11) {
+
+        $('.current-day').hide();
+        $('.current-message').hide();
+
+        let time = setInterval(babbo_penne, 6000);
+        function babbo_penne(){
+            $('.fondo').slideUp("slow")
+            $('.babbo').slideUp("slow")
+            $('.testo').slideUp("slow")
+            $('.current-day').fadeIn(2000)
+            clearInterval(time)
+        }
+
         $.each(images, function( key, image ) {
             if (today == key) {
                 let current_day = image.day;
@@ -168,10 +166,13 @@ $(document).ready(function(){
             })
 
             
-    // } else {
-    //     $('.container').append('<h1> Keep Calm! Is not yet December!')
-    // }
+    } else {
+        $('.container').empty();
+        $('.container').css('background-color', 'lightgreen')
+        $('.container').append('<h1> Keep Calm!' + '<br>' + 'Is just ' + today + ' November </h1>');
+    }
 
+    
 })
     
 
