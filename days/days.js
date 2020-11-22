@@ -153,7 +153,7 @@ $(document).ready(function(){
                 let day_message = image.link;
                 $('.current-day').attr('src' , "img/day/" + current_day);
                 $('.current-message').attr('src' , "img/message/" + day_message);
-                $('head').prepend('<meta property="og:title" content="Calendario dell\'Avvento - Famiglia Brambilla - ' + today + ' ' + 'Dicembre' + '"'  + '/>')
+                $('head').prepend('<meta property="og:title" content=' + '"' + today + ' ' + 'Dicembre' + '"'  + '/>')
                 return false
             } 
             
