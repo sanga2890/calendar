@@ -129,9 +129,9 @@ $(document).ready(function(){
     
     let date =  new Date();
     let today = date.getDate();
-    let month = date.getMonth();
+    let month = date.getMonth() + 1;
 
-    if (month == 11) {
+    if (month == 12) {
 
         $('.current-day').hide();
         $('.current-message').hide();
