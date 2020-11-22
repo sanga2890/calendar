@@ -169,7 +169,7 @@ $(document).ready(function(){
     } else {
         $('.container').empty();
         $('.container').css('background-color', 'lightgreen')
-        $('.container').append('<h1> Keep Calm!' + '<br>' + 'Is just November ' + today + ' </h1>');
+        $('.container').append('<h1> Keep Calm!' + '<br>' + 'Is just November <span>' + today + '</span> </h1>');
     }
 
     
