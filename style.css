@@ -110,11 +110,10 @@ span {
 }
 
 
-@media (min-width:600px),
-    (min-widht:700px) and (orientation: landscape) {
+@media (min-width:600px){
     .container {
         width: 500px;
-        height: 700px;
+        height: 100vh;
     }
 
     .babbo {
